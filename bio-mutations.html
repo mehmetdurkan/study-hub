@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mutations Practice</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<p><a href="index.html">← Study Hub</a></p>
+<h1>Protein synthesis &amp; mutations</h1>
+<p class="lead">Big question: <em>How does an error during DNA replication affect protein synthesis and function?</em> Read the notes (10 min), take the quiz alone without looking (10 min), then watch the links for anything you missed.</p>
+
+<h2>1. The path: DNA → RNA → protein</h2>
+<div class="box">
+<ul>
+<li><strong>Replication</strong> (S phase, nucleus): DNA copies itself. DNA polymerase proofreads, but a few errors slip through. An error that stays = a <strong>mutation</strong>.</li>
+<li><strong>Transcription</strong> (nucleus): the gene's DNA is copied into <strong>mRNA</strong>. Base pairing: A→U, T→A, C→G, G→C. Example: template DNA <span class="mono">TAC</span> → mRNA <span class="mono">AUG</span>.</li>
+<li><strong>Translation</strong> (ribosome, cytoplasm): the ribosome reads mRNA 3 bases at a time (<strong>codons</strong>). Each tRNA has an <strong>anticodon</strong> that matches a codon and carries one amino acid. mRNA <span class="mono">AUG</span> ↔ anticodon <span class="mono">UAC</span>.</li>
+<li><strong>Protein shape → function.</strong> The amino acid order decides how the protein folds. Change the order and the shape (and the job) can change.</li>
+</ul>
+</div>
+
+<h3>Codons used on this page</h3>
+<table>
+<tr><th>mRNA codon</th><th>Amino acid</th><th>mRNA codon</th><th>Amino acid</th></tr>
+<tr><td class="mono">AUG</td><td>Met (START)</td><td class="mono">GAG</td><td>Glu</td></tr>
+<tr><td class="mono">GCA, GCG</td><td>Ala</td><td class="mono">GUG</td><td>Val</td></tr>
+<tr><td class="mono">UUU</td><td>Phe</td><td class="mono">UAC</td><td>Tyr</td></tr>
+<tr><td class="mono">AAA</td><td>Lys</td><td class="mono">UGG</td><td>Trp</td></tr>
+<tr><td class="mono">GGC</td><td>Gly</td><td class="mono">UAA, UAG, UGA</td><td>STOP</td></tr>
+</table>
+
+<h2>2. Kinds of mutations</h2>
+<table>
+<tr><th>Type</th><th>What happens</th><th>Effect on protein</th></tr>
+<tr><td><strong>Silent</strong> (substitution)</td><td>One base swapped, codon still means the same amino acid. <span class="mono">GCA→GCG</span> (Ala→Ala)</td><td>None</td></tr>
+<tr><td><strong>Missense</strong> (substitution)</td><td>One base swapped → a different amino acid. <span class="mono">GAG→GUG</span> (Glu→Val) = sickle cell</td><td>None to severe. Depends where and how different the new amino acid is</td></tr>
+<tr><td><strong>Nonsense</strong> (substitution)</td><td>One base swapped → a STOP codon. <span class="mono">UAC→UAA</span> (Tyr→STOP)</td><td>Protein cut short, usually doesn't work</td></tr>
+<tr><td><strong>Frameshift</strong> (insertion or deletion of 1 or 2 bases)</td><td>Reading frame shifts, every codon after it changes</td><td>Usually severe: many wrong amino acids, often an early STOP</td></tr>
+<tr><td>Insertion/deletion of <strong>3</strong> bases</td><td>Adds or removes one whole codon; frame stays</td><td>One amino acid added or missing; often milder</td></tr>
+</table>
+<div class="box">
+<strong>Frameshift trick:</strong> THE FAT CAT ATE THE RAT → delete the first <em>F</em> → THE ATC ATA TET HER AT. Everything after the error is garbage.
+</div>
+
+<h3>Other must-knows</h3>
+<ul>
+<li><strong>Causes:</strong> random replication errors, or <strong>mutagens</strong> such as UV light (makes thymine dimers), X-rays, chemicals in tobacco smoke.</li>
+<li><strong>Body cell vs. sex cell:</strong> a mutation in a skin cell affects only that person (could lead to cancer). Only mutations in <strong>gametes</strong> (egg/sperm) pass to offspring.</li>
+<li><strong>Not always bad:</strong> most are neutral, some harmful, a few helpful. Mutations are the source of new variation for evolution.</li>
+<li><strong>Chromosome-level mutations</strong> (bigger): deletion, duplication, inversion, translocation of a chunk of chromosome.</li>
+</ul>
+
+<h2>3. Practice quiz</h2>
+<p class="muted">Tap an answer. Try first, then read why. Do it again tomorrow: questions shuffle each time.</p>
+<div id="quiz"></div>
+<div id="score">Score: 0 / 0</div>
+
+<h2>4. Explain it (test-style short answer)</h2>
+<details><summary>Q1. A DNA replication error changes one base. Explain two different ways this could affect the protein.</summary>
+<p><strong>Check your answer has:</strong> (1) it could be <em>silent</em>: same amino acid because several codons code for the same one, so no change; (2) <em>missense</em>: a different amino acid → protein may fold differently → may not work (e.g., sickle cell hemoglobin); or <em>nonsense</em>: early STOP → short, non-working protein. Use the words codon, amino acid, shape, function.</p></details>
+<details><summary>Q2. Why is a one-base deletion usually worse than a one-base substitution?</summary>
+<p><strong>Check your answer has:</strong> the deletion shifts the reading frame, so <em>every codon after it</em> is read wrong (many amino acids change, often an early STOP). A substitution changes at most <em>one</em> codon.</p></details>
+<details><summary>Q3. Claim-Evidence-Reasoning: "Sickle cell disease is caused by a mutation."</summary>
+<p><strong>Check your answer has:</strong> Claim: one base substitution in the hemoglobin gene causes it. Evidence: the codon GAG becomes GUG, so glutamic acid (Glu) is replaced by valine (Val). Reasoning: the different amino acid changes how hemoglobin folds and sticks together → red blood cells become sickle-shaped → carry oxygen poorly and block vessels.</p></details>
+
+<h2>5. Best resources (free)</h2>
+<ul>
+<li><a href="https://learn.genetics.utah.edu/content/basics/txtl">Learn.Genetics: Transcribe and Translate a Gene</a> (interactive; do this first)</li>
+<li><a href="https://learn.genetics.utah.edu/content/basics/mutation">Learn.Genetics: What is Mutation?</a> and <a href="https://learn.genetics.utah.edu/content/basics/outcomes">The Outcome of Mutation</a> (same site your class used)</li>
+<li><a href="https://www.biointeractive.org/classroom-resources/dna-transcription-basic-detail">HHMI BioInteractive: Transcription animation</a> and <a href="https://www.biointeractive.org/classroom-resources/translation-basic-detail">Translation animation</a> (short, clear)</li>
+<li><a href="https://www.youtube.com/@AmoebaSisters/search?query=mutations">Amoeba Sisters: Mutations video</a> (fun, ~8 min)</li>
+<li><a href="https://www.khanacademy.org/science/biology/gene-expression-central-dogma/mutations-tutorial">Khan Academy: Mutations</a> (videos + practice questions)</li>
+</ul>
+<p class="muted">General study notes, not from any class materials or answer keys.</p>
+</main>
+
+<script>
+const Q = [
+ ["One base in a codon changes, but the codon still codes for the same amino acid. What type of mutation is this?",
+  ["Silent","Missense","Nonsense","Frameshift"],0,
+  "Several codons code for the same amino acid (e.g., GCA and GCG are both Ala), so the protein doesn't change."],
+ ["An mRNA codon changes from UAC to UAA. What happens?",
+  ["Tyr becomes STOP, so the protein is cut short (nonsense)","Tyr becomes Phe (missense)","Nothing changes (silent)","The reading frame shifts"],0,
+  "UAA is a stop codon. Translation ends early → a shortened, usually non-working protein."],
+ ["One extra base is inserted near the start of a gene. Why is this usually serious?",
+  ["Every codon after it is read in the wrong frame","Only one amino acid changes","It adds one whole amino acid","It only affects the mRNA, not the protein"],0,
+  "Codons are read in groups of three. Adding one base shifts all the groups after it (frameshift)."],
+ ["Which change keeps the reading frame the same?",
+  ["Deleting 3 bases","Deleting 1 base","Inserting 2 bases","Inserting 1 base"],0,
+  "3 bases = exactly one codon. The protein loses one amino acid but the rest is read correctly."],
+ ["In sickle cell disease, the codon GAG becomes GUG. This is a…",
+  ["Missense mutation (Glu → Val)","Silent mutation","Nonsense mutation","Frameshift mutation"],0,
+  "One base swap gives a different amino acid. That one change alters hemoglobin's shape."],
+ ["mRNA: AUG-GCA-UUU. A mutation changes GCA to GCG. The protein will…",
+  ["Stay the same: both code for Ala","Lose Ala","Stop after Met","Gain an extra amino acid"],0,
+  "GCA and GCG both code for alanine: a silent mutation."],
+ ["When are DNA replication errors most likely to happen?",
+  ["During S phase, when DNA is copied","During translation","During transcription","Only during meiosis"],0,
+  "Replication happens in S phase. DNA polymerase proofreads, but rare mistakes remain."],
+ ["A mutation happens in a skin cell. Can it be passed to the person's children?",
+  ["No, only mutations in gametes (egg/sperm) are inherited","Yes, all mutations are inherited","Yes, if it is a frameshift","Only if it is silent"],0,
+  "Body (somatic) cell mutations stay in that person. Only germ-line mutations go to offspring."],
+ ["Which is a mutagen?",
+  ["UV light","Glucose","Water","Oxygen gas"],0,
+  "UV light can bond neighboring thymines together (thymine dimers), causing copying errors."],
+ ["Where does translation happen?",
+  ["At a ribosome in the cytoplasm","In the nucleus","In the mitochondria only","In the cell membrane"],0,
+  "Transcription is in the nucleus; mRNA then goes out to ribosomes for translation."],
+ ["The mRNA codon is AUG. What is the tRNA anticodon?",
+  ["UAC","TAC","AUG","GUA"],0,
+  "Anticodons pair with codons: A–U, U–A, G–C. tRNA uses U, not T."],
+ ["A DNA template strand reads TAC. What is the mRNA codon?",
+  ["AUG","ATG","UAC","TAC"],0,
+  "T→A, A→U, C→G. RNA has U instead of T."],
+ ["A missense mutation causes no change in how the protein works. Which is the best explanation?",
+  ["The new amino acid is similar, or it is in a part not important for the protein's shape","Missense mutations never change proteins","The mRNA was not made","The ribosome skipped the codon"],0,
+  "Effect depends on where the change is and how different the new amino acid is."],
+ ["Why does changing the amino acid order change a protein's function?",
+  ["The order determines how the protein folds into its shape","It changes the cell's DNA polymerase","It changes the number of chromosomes","It makes the mRNA longer"],0,
+  "Sequence → folding → 3D shape → function. Change the shape, change the job."],
+ ["A piece of chromosome breaks off and attaches to a different chromosome. This is a…",
+  ["Translocation","Point mutation","Silent mutation","Inversion"],0,
+  "Translocation = a segment moves to a non-matching chromosome. Inversion = a segment flips in place."]
+];
+const shuffle=a=>{for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+let right=0,done=0;
+const quiz=document.getElementById('quiz'),score=document.getElementById('score');
+shuffle(Q.slice()).forEach((q,n)=>{
+  const d=document.createElement('div');d.className='q';
+  d.innerHTML=`<p><strong>${n+1}.</strong> ${q[0]}</p>`;
+  const opts=shuffle(q[1].map((t,i)=>({t,ok:i===q[2]})));
+  opts.forEach(o=>{
+    const b=document.createElement('button');b.textContent=o.t;
+    b.onclick=()=>{
+      if(d.classList.contains('done'))return;
+      d.classList.add('done');done++;
+      if(o.ok){right++;b.classList.add('right')}else{b.classList.add('wrong');
+        [...d.querySelectorAll('button')].forEach((x,k)=>{if(opts[k].ok)x.classList.add('right')})}
+      score.textContent=`Score: ${right} / ${done}`+(done===Q.length?`  ·  ${Math.round(100*right/done)}%`:'');
+    };
+    d.appendChild(b);
+  });
+  const w=document.createElement('div');w.className='why';w.textContent='Why: '+q[3];d.appendChild(w);
+  quiz.appendChild(d);
+});
+</script>
+</body>
+</html>
