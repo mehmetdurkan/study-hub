@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spanish Preterite</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.drill{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:8px 0}
+.drill input{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--line,#ccc);background:transparent;color:inherit;width:9.5em}
+.drill .fb{font-size:.95em}
+.keys button{min-width:2.2em}
+</style>
+</head>
+<body>
+<main>
+<p><a href="index.html">← Study Hub</a></p>
+<h1>Español 2 · El pretérito</h1>
+<p class="lead">Regular preterite plus the two spelling-change groups: <strong>-car / -gar / -zar</strong> and <strong>i → y</strong>. Plan: notes 5 min, then type drill alone for 10 min, then write 5 sentences.</p>
+
+<h2>1. Regular preterite endings</h2>
+<table>
+<tr><th></th><th>-ar (hablar)</th><th>-er / -ir (comer, vivir)</th></tr>
+<tr><td>yo</td><td>habl<strong>é</strong></td><td>com<strong>í</strong></td></tr>
+<tr><td>tú</td><td>habl<strong>aste</strong></td><td>com<strong>iste</strong></td></tr>
+<tr><td>él / ella / Ud.</td><td>habl<strong>ó</strong></td><td>com<strong>ió</strong></td></tr>
+<tr><td>nosotros</td><td>habl<strong>amos</strong></td><td>com<strong>imos</strong></td></tr>
+<tr><td>vosotros</td><td>habl<strong>asteis</strong></td><td>com<strong>isteis</strong></td></tr>
+<tr><td>ellos / ellas / Uds.</td><td>habl<strong>aron</strong></td><td>com<strong>ieron</strong></td></tr>
+</table>
+<p class="muted">The accents on yo (é / í) and él (ó / ió) matter: <em>hablo</em> = I speak (now), but <em>habló</em> = he spoke.</p>
+
+<h2>2. -car / -gar / -zar: only the yo form changes</h2>
+<div class="box">
+<strong>Why?</strong> To keep the same sound before <em>é</em>.
+<ul>
+<li><strong>-car: c → qu</strong>: buscar → bus<strong>qué</strong>, tocar → to<strong>qué</strong>, sacar → sa<strong>qué</strong>, practicar → practi<strong>qué</strong>, explicar → expli<strong>qué</strong></li>
+<li><strong>-gar: g → gu</strong>: llegar → lle<strong>gué</strong>, jugar → ju<strong>gué</strong>, pagar → pa<strong>gué</strong>, apagar → apa<strong>gué</strong></li>
+<li><strong>-zar: z → c</strong>: empezar → empe<strong>cé</strong>, almorzar → almor<strong>cé</strong>, comenzar → comen<strong>cé</strong>, organizar → organi<strong>cé</strong></li>
+</ul>
+Every other form is regular: tú buscaste, él llegó, nosotros empezamos.
+</div>
+
+<h2>3. i → y: only él / ellos change</h2>
+<div class="box">
+For -er/-ir verbs whose stem ends in a vowel (le-er, cre-er, o-ír, ca-er, constru-ir), the <em>i</em> between two vowels becomes <strong>y</strong>.
+<table>
+<tr><th></th><th>leer</th><th>oír</th><th>construir</th></tr>
+<tr><td>yo</td><td>leí</td><td>oí</td><td>construí</td></tr>
+<tr><td>tú</td><td>leíste</td><td>oíste</td><td>construiste</td></tr>
+<tr><td>él / ella</td><td><strong>leyó</strong></td><td><strong>oyó</strong></td><td><strong>construyó</strong></td></tr>
+<tr><td>nosotros</td><td>leímos</td><td>oímos</td><td>construimos</td></tr>
+<tr><td>ellos / ellas</td><td><strong>leyeron</strong></td><td><strong>oyeron</strong></td><td><strong>construyeron</strong></td></tr>
+</table>
+Also note: leer, creer, oír and caer put an accent on the í in tú / nosotros (leíste, leímos). -uir verbs like construir don't.
+</div>
+
+<h2>4. Type drill</h2>
+<p class="muted">Type the preterite form. The ñ/á buttons help on a laptop; on a phone, hold the letter. New verbs each time you press "New set".</p>
+<div class="keys"><button data-k="á">á</button><button data-k="é">é</button><button data-k="í">í</button><button data-k="ó">ó</button><button data-k="ú">ú</button><button data-k="ñ">ñ</button></div>
+<div id="drill"></div>
+<p><button id="check">Check all</button> <button id="again">New set</button></p>
+<div id="score">Score: 0 / 0</div>
+
+<h2>5. Quick quiz</h2>
+<div id="quiz"></div>
+<div id="score2">Score: 0 / 0</div>
+
+<h2>6. Write it (5 min)</h2>
+<div class="box">
+Write 5 sentences about what you did yesterday (<em>ayer</em>). Use at least 3 of these: llegar, jugar, empezar, buscar, practicar, almorzar, leer, oír.
+<details><summary>Example + checklist</summary>
+<p><em>Ayer llegué a la escuela a las siete y media. Almorcé con mis amigas. Después practiqué tenis y jugué un partido. Por la noche leí un libro y mi hermano oyó música.</em></p>
+<p><strong>Check:</strong> yo forms end in -é/-í with the spelling change (llegué, almorcé, practiqué, jugué)? Él/ella of leer/oír uses y (leyó, oyó)? Accents in place?</p></details>
+</div>
+
+<h2>7. Best resources (free)</h2>
+<ul>
+<li><a href="https://www.spanishdict.com/guide/spelling-changes-in-the-preterite">SpanishDict: Spelling changes in the preterite</a>: clear tables for both groups</li>
+<li><a href="https://www.spanishdict.com/guide/spanish-preterite-tense-forms">SpanishDict: Preterite tense forms</a>: regular endings review</li>
+<li><a href="https://studyspanish.com/lessons/pretortho">StudySpanish: Preterite spelling-change verbs</a>: short lesson with practice</li>
+<li><a href="https://www.youtube.com/watch?v=JcKPo9b0IDs">Señor Jordan: Preterite -AR verbs: -gar, -car, -zar</a>: short video</li>
+<li><a href="https://conjuguemos.com/">Conjuguemos</a>: same site your class uses; pick "preterite" verb practice</li>
+</ul>
+<p class="muted">General study notes, not from any class materials or answer keys.</p>
+</main>
+<script>
+const V=[
+ ["buscar","yo","busqué"],["tocar","yo","toqué"],["sacar","yo","saqué"],["practicar","yo","practiqué"],["explicar","yo","expliqué"],
+ ["llegar","yo","llegué"],["jugar","yo","jugué"],["pagar","yo","pagué"],["apagar","yo","apagué"],
+ ["empezar","yo","empecé"],["almorzar","yo","almorcé"],["comenzar","yo","comencé"],["organizar","yo","organicé"],
+ ["buscar","ella","buscó"],["llegar","tú","llegaste"],["empezar","nosotros","empezamos"],["jugar","ellos","jugaron"],["practicar","tú","practicaste"],
+ ["leer","él","leyó"],["leer","ellos","leyeron"],["leer","yo","leí"],["leer","tú","leíste"],
+ ["creer","ella","creyó"],["creer","ustedes","creyeron"],["oír","él","oyó"],["oír","ellas","oyeron"],["oír","nosotros","oímos"],
+ ["caer","ella","cayó"],["construir","ellos","construyeron"],["construir","él","construyó"],
+ ["hablar","yo","hablé"],["comer","él","comió"],["vivir","ellos","vivieron"],["estudiar","nosotros","estudiamos"],["escribir","tú","escribiste"]
+];
+const shuffle=a=>{for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const strip=s=>s.normalize('NFD').replace(/[̀-ͯ]/g,'');
+let last=null;
+document.addEventListener('focusin',e=>{if(e.target.tagName==='INPUT')last=e.target});
+document.querySelectorAll('.keys button').forEach(b=>b.onclick=()=>{if(!last)return;const p=last.selectionStart??last.value.length;last.value=last.value.slice(0,p)+b.dataset.k+last.value.slice(p);last.focus();last.setSelectionRange(p+1,p+1)});
+function build(){
+ const d=document.getElementById('drill');d.innerHTML='';
+ shuffle(V.slice()).slice(0,12).forEach(([v,p,a])=>{
+  const r=document.createElement('div');r.className='drill';
+  r.innerHTML=`<span><strong>${v}</strong> (${p})</span><input autocomplete="off" autocapitalize="off" spellcheck="false"><span class="fb"></span>`;
+  r.dataset.a=a;d.appendChild(r);
+ });
+ document.getElementById('score').textContent='Score: 0 / 0';
+}
+document.getElementById('check').onclick=()=>{
+ let ok=0,n=0;
+ document.querySelectorAll('#drill .drill').forEach(r=>{
+  const x=r.querySelector('input').value.trim().toLowerCase(),a=r.dataset.a,fb=r.querySelector('.fb');
+  if(!x){fb.textContent='';return}n++;
+  if(x===a){ok++;fb.textContent='✓'}
+  else if(strip(x)===strip(a)){fb.textContent='almost: check the accent → '+a}
+  else fb.textContent='✗ → '+a;
+ });
+ document.getElementById('score').textContent=`Score: ${ok} / ${n}`;
+};
+document.getElementById('again').onclick=build;
+build();
+
+const Q=[
+ ["Yo ___ a la escuela temprano. (llegar)",["llegué","llegé","llegó","llegue"],0,"-gar: g → gu in the yo form, with an accent: llegué."],
+ ["Ella ___ el libro anoche. (leer)",["leyó","leió","leí","leeó"],0,"i → y between vowels in él/ella: leyó."],
+ ["Yo ___ a estudiar a las ocho. (empezar)",["empecé","empezé","empezó","empece"],0,"-zar: z → c before é: empecé."],
+ ["Tú ___ la guitarra ayer. (tocar)",["tocaste","toquaste","toqué","tocó"],0,"The spelling change is only in yo. Tú is regular: tocaste."],
+ ["Ellos ___ un ruido. (oír)",["oyeron","oieron","oyó","oímos"],0,"i → y in ellos: oyeron."],
+ ["Yo ___ mis llaves por todas partes. (buscar)",["busqué","buscé","buscó","busque"],0,"-car: c → qu before é: busqué."],
+ ["Nosotros ___ en la cafetería. (almorzar)",["almorzamos","almorcamos","almorcé","almuerzamos"],0,"Only yo changes: nosotros almorzamos (regular, no stem change in the preterite)."],
+ ["Which form has NO spelling change?",["él jugó","yo jugué","yo saqué","yo comencé"],0,"-car/-gar/-zar change only in yo; él jugó is regular."],
+ ["Why does buscar become busqué?",["To keep the hard 'k' sound before é","Because it's irregular","Because of a stem change","Because 'yo' is formal"],0,"'cé' would sound like 'say'; 'qué' keeps the 'k' sound."],
+ ["Los obreros ___ un puente. (construir)",["construyeron","construieron","construyó","construímos"],0,"-uir verbs also use y in él/ellos: construyeron."]
+];
+let right=0,done=0;
+const quiz=document.getElementById('quiz'),s2=document.getElementById('score2');
+shuffle(Q.slice()).forEach((q,n)=>{
+ const d=document.createElement('div');d.className='q';
+ d.innerHTML=`<p><strong>${n+1}.</strong> ${q[0]}</p>`;
+ const opts=shuffle(q[1].map((t,i)=>({t,ok:i===q[2]})));
+ opts.forEach(o=>{
+  const b=document.createElement('button');b.textContent=o.t;
+  b.onclick=()=>{
+   if(d.classList.contains('done'))return;
+   d.classList.add('done');done++;
+   if(o.ok){right++;b.classList.add('right')}else{b.classList.add('wrong');
+    [...d.querySelectorAll('button')].forEach((x,k)=>{if(opts[k].ok)x.classList.add('right')})}
+   s2.textContent=`Score: ${right} / ${done}`+(done===Q.length?`  ·  ${Math.round(100*right/done)}%`:'');
+  };
+  d.appendChild(b);
+ });
+ const w=document.createElement('div');w.className='why';w.textContent='Why: '+q[3];d.appendChild(w);
+ quiz.appendChild(d);
+});
+</script>
+</body>
+</html>
